@@ -12,7 +12,7 @@ Run a container of the inheriting image
 ````shell
 docker run -it inheriting-image bash
 ````
-Inside the container, run `pip list`
+Inside the container, run `pip list`. Note, that packages from both requirement files are available.
 
 
 # Caveats
