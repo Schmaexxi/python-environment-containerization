@@ -12,3 +12,4 @@ COPY --from=other-base-image /opt/venv/lib/python3.10/site-packages/ /usr/local/
 
 # RUN pip install -r requirements.txt
 RUN pip install --upgrade pip
+CMD ["pip", "list"]

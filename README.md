@@ -10,9 +10,9 @@ docker build -f inheriting_image.Dockerfile -t inheriting-image .
 ````
 Run a container of the inheriting image
 ````shell
-docker run -it inheriting-image bash
+docker run -it inheriting-image
 ````
-Inside the container, run `pip list`. Note, that packages from both requirement files are available.
+Note, that packages from both requirement files are available.
 
 
 # Caveats
